@@ -118,8 +118,12 @@ Install required system packages:
 
 ```bash
 sudo apt update
-sudo apt install -y python3-pip libportaudio2 ffmpeg
+sudo apt install -y python3-pip libportaudio2 ffmpeg pip
 ```
+
+"""bash
+pip install soco
+"""
 
 Install required Python dependencies globally:
 

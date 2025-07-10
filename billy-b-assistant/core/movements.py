@@ -1,4 +1,4 @@
-import lgpio
+import safe_lgpio as lgpio
 import time
 import numpy as np
 import threading

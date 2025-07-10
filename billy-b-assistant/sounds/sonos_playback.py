@@ -6,6 +6,9 @@ from soco import discover
 
 # ========== Settings ==========
 AUDIO_DIR = "sounds/response-history"
+# Ensure the folder exists before writing to it
+os.makedirs(AUDIO_DIR, exist_ok=True)
+
 HTTP_PORT = 8000
 LAN_IP = "192.168.1.247"  # 🔁 Replace with your actual LAN IP
 

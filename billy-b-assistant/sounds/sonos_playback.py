@@ -7,7 +7,7 @@ from soco import discover
 # ========== Settings ==========
 AUDIO_DIR = "sounds/response-history"
 HTTP_PORT = 8000
-LAN_IP = "192.168.1.100"  # 🔁 Replace with your actual LAN IP
+LAN_IP = "192.168.1.247"  # 🔁 Replace with your actual LAN IP
 
 # ========== Start HTTP Server ==========
 def start_http_server():

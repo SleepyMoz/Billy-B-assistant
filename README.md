@@ -121,9 +121,9 @@ sudo apt update
 sudo apt install -y python3-pip libportaudio2 ffmpeg pip
 ```
 
-"""bash
+```bash
 pip install soco
-"""
+```
 
 Install required Python dependencies globally:
 
